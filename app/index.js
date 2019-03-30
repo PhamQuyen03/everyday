@@ -21,10 +21,7 @@ class Everyday extends React.PureComponent {
         this.getArticles = this.props.getArticles.bind(this);
     }
     componentDidMount() {
-        this.getArticles('full-size-articles');
-        // this.getCurrentPosition();
-        // console.log('statusBarHeight: ', StatusBar.currentHeight);
-
+        // this.getArticles('full-size-articles');
     }
     render() {
         return (
