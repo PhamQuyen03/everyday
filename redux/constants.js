@@ -1,8 +1,3 @@
-
-/**
-* @providesModule WeFit.Redux.Constants
-*/
-
 // import _ from 'lodash';
 
 export const API_CONFIGS = {

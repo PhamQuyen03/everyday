@@ -26,7 +26,7 @@ class Everyday extends React.PureComponent {
     render() {
         return (
             <View>
-                <Text>{'hello'}</Text>
+                <Text>{'hello3'}</Text>
                 <Text>{'hello'}</Text>
                 <Text>{'hello'}</Text>
                 <Text>{'hello'}</Text>

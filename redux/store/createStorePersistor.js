@@ -1,6 +1,3 @@
-/**
- * @providesModule WeFit.Redux.Store.createStorePersistor
- */
 
 import { AsyncStorage, Platform } from 'react-native';
 // import { Logger } from '@onaclover/react-native-utils';

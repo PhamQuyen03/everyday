@@ -1,7 +1,3 @@
-/**
- * @providesModule WeFit.Constants.RouteNames
- */
-
 export const APP_ROUTES = {
     ROOT: 'rootStack',
     SPLASH: 'splashScreen',

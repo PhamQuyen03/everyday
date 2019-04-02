@@ -1,6 +1,3 @@
-/**
- * @providesModule WeFit.Components.StudioDetail.withConnect
- */
 
 import { connect } from 'react-redux';
 import { serviceApi } from '../redux/actions';

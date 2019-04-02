@@ -1,8 +1,3 @@
-/**
- * @providesModule WeFit.Redux.Store
- */
-
-/* eslint-disable no-underscore-dangle */
 
 import { applyMiddleware, combineReducers, compose, createStore } from 'redux';
 import { persistStore, persistReducer } from 'redux-persist';

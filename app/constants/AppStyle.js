@@ -1,6 +1,3 @@
-/**
- * @providesModule WeFit.Constants.AppStyles
- */
 
 import { Platform } from 'react-native';
 import { TabBarTop } from 'react-navigation';
