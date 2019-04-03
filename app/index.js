@@ -10,6 +10,7 @@ import { StyleSheet, Text, View, StatusBar, Dimensions, Platform } from 'react-n
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 // import withConnect from './withConnect';
+import I18n from '../I18n';
 import { serviceApi } from '../redux/action';
 // @withConnect
 class Everyday extends React.PureComponent {
@@ -18,6 +19,7 @@ class Everyday extends React.PureComponent {
     };
     constructor(props) {
         super(props);
+        I18n.locale = 'en';
         this.getArticles = this.props.getArticles.bind(this);
     }
     componentDidMount() {
@@ -26,7 +28,7 @@ class Everyday extends React.PureComponent {
     render() {
         return (
             <View>
-                <Text>{'hello3'}</Text>
+                <Text>{I18n.t('hello')}</Text>
                 <Text>{'hello'}</Text>
                 <Text>{'hello'}</Text>
                 <Text>{'hello'}</Text>
@@ -35,6 +37,7 @@ class Everyday extends React.PureComponent {
         );
     }
 }
+
 function mapStateToProps(state) {
     //   const { userData } = state.auth;
     //   const {

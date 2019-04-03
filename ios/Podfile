@@ -6,5 +6,5 @@ target 'everyday' do
   # use_frameworks!
 
   # Pods for everyday
-  pod 'RNI18n', :path => '../node_modules/react-native-i18n'
+
 end

@@ -1,25 +1,3 @@
-PODS:
-  - React (0.11.0):
-    - React/Core (= 0.11.0)
-  - React/Core (0.11.0)
-  - RNI18n (2.0.15):
-    - React
-
-DEPENDENCIES:
-  - RNI18n (from `../node_modules/react-native-i18n`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - React
-
-EXTERNAL SOURCES:
-  RNI18n:
-    :path: "../node_modules/react-native-i18n"
-
-SPEC CHECKSUMS:
-  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
-  RNI18n: e2f7e76389fcc6e84f2c8733ea89b92502351fd8
-
-PODFILE CHECKSUM: d4881e0060da8bfcc68d974adae952e3f6052c00
+PODFILE CHECKSUM: 4046bff8feb865ef119005b3ebf9127f29c6d7dd
 
 COCOAPODS: 1.6.0
