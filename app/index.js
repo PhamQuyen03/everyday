@@ -6,10 +6,16 @@
  */
 
 import React from 'react';
-import { StyleSheet, Text, View, StatusBar, Dimensions, Platform } from 'react-native';
+import { StyleSheet, Text, View, StatusBar, Dimensions, Platform, ScrollView } from 'react-native';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import AutoScroll from './components/autoScroll';
+import ScrollLoop from './components/scrollLoop';
+import ScrollViewCustom from './components/scrollCustom';
+import GustureComponent from './components/Guesture';
+// import ShowCase from './components/Guesture/libGestures';
 // import withConnect from './withConnect';
+import InteractableExample from './components/Interactable'
 import I18n from '../I18n';
 import { serviceApi } from '../redux/action';
 // @withConnect
@@ -27,13 +33,14 @@ class Everyday extends React.PureComponent {
     }
     render() {
         return (
-            <View>
-                <Text>{I18n.t('hello')}</Text>
-                <Text>{'hello'}</Text>
-                <Text>{'hello'}</Text>
-                <Text>{'hello'}</Text>
-                <Text>{'hello'}</Text>
-            </View>
+            <InteractableExample />
+            // <AutoScroll />
+            // <ScrollViewCustom />
+            // <ScrollLoop />
+            // <View>
+            // <GustureComponent />
+            // </View>
+            // <ShowCase />
         );
     }
 }
