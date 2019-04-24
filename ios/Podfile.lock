@@ -1,3 +1,45 @@
-PODFILE CHECKSUM: 4046bff8feb865ef119005b3ebf9127f29c6d7dd
+PODS:
+  - Interactable (0.1.10):
+    - React
+  - React (0.59.2):
+    - React/Core (= 0.59.2)
+  - React/Core (0.59.2):
+    - yoga (= 0.59.2.React)
+  - React/DevSupport (0.59.2):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.59.2)
+  - React/RCTBlob (0.59.2):
+    - React/Core
+  - React/RCTText (0.59.2):
+    - React/Core
+  - React/RCTWebSocket (0.59.2):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - yoga (0.59.2.React)
+
+DEPENDENCIES:
+  - Interactable (from `../node_modules/react-native-interactable`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  Interactable:
+    :path: "../node_modules/react-native-interactable"
+  React:
+    :path: "../node_modules/react-native"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  Interactable: 4e2c73ed61aab5e1dc91800554a04cee79db477c
+  React: 9d063e2f356c8cd2f54dd550d4507740037cbabe
+  yoga: 3768a3026ade0fb46a68f3a31a917cf86bc34fc4
+
+PODFILE CHECKSUM: 18c1310536dfcb328e1cbbac47b29e8025d1cfff
 
 COCOAPODS: 1.6.0

@@ -8,3 +8,20 @@ target 'everyday' do
   # Pods for everyday
 
 end
+pod "yoga", :path => "../node_modules/react-native/ReactCommon/yoga"
+pod 'React', :path => '../node_modules/react-native', :subspecs => [
+  'Core',
+  'DevSupport', # Include this to enable In-App Devmenu if RN >= 0.43
+  'RCTText',
+  'RCTWebSocket', # needed for debugging
+  # Add any other subspecs you want to use in your project
+]
+pod 'Interactable', :path => '../node_modules/react-native-interactable'
+post_install do |installer|
+  `rm -rf Pods/leveldb-library/port/win`
+  installer.pods_project.targets.each do |target|
+    if target.name == "React"
+      target.remove_from_project
+    end
+  end
+end
