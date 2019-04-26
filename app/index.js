@@ -16,6 +16,18 @@ import GustureComponent from './components/Guesture';
 // import ShowCase from './components/Guesture/libGestures';
 // import withConnect from './withConnect';
 import InteractableExample from './components/Interactable'
+import MoreChatHeads from './components/Interactable/MoreChatHeads'
+import SwipeableCard from './components/Interactable/SwipeableCard'
+import AlertAreas from './components/Interactable/AlertAreas'
+import SideMenu from './components/Interactable/SideMenu'
+import MoreDrawers from './components/Interactable/MoreDrawers'
+import SnapTo from './components/Interactable/SnapTo'
+import ChangePosition from './components/Interactable/ChangePosition'
+import CollapsingHeader from './components/Interactable/CollapsingHeader'
+import HandleRelayout from './components/Interactable/HandleRelayout'
+import HandleTouches from './components/Interactable/HandleTouches'
+import TouchesInsideStatic from './components/Interactable/TouchesInsideStatic'
+import TouchesInside from './components/Interactable/TouchesInside'
 import I18n from '../I18n';
 import { serviceApi } from '../redux/action';
 // @withConnect
@@ -33,7 +45,19 @@ class Everyday extends React.PureComponent {
     }
     render() {
         return (
-            <InteractableExample />
+            // <MoreChatHeads />
+            // <SwipeableCard />
+            // <SideMenu />
+            // <SnapTo />
+            // <ChangePosition />
+            <TouchesInside />
+            // <TouchesInsideStatic />
+            // <HandleTouches />
+            // <HandleRelayout />
+            // <CollapsingHeader />
+            // <MoreDrawers />
+            // <AlertAreas />
+            // <InteractableExample />
             // <AutoScroll />
             // <ScrollViewCustom />
             // <ScrollLoop />
