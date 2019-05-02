@@ -28,6 +28,7 @@ import HandleRelayout from './components/Interactable/HandleRelayout'
 import HandleTouches from './components/Interactable/HandleTouches'
 import TouchesInsideStatic from './components/Interactable/TouchesInsideStatic'
 import TouchesInside from './components/Interactable/TouchesInside'
+import AccordionView from './components/collapsible'
 import I18n from '../I18n';
 import { serviceApi } from '../redux/action';
 // @withConnect
@@ -45,12 +46,14 @@ class Everyday extends React.PureComponent {
     }
     render() {
         return (
+            <AccordionView />
             // <MoreChatHeads />
             // <SwipeableCard />
             // <SideMenu />
             // <SnapTo />
+            // <TestCustom />
             // <ChangePosition />
-            <TouchesInside />
+            // <TouchesInside />
             // <TouchesInsideStatic />
             // <HandleTouches />
             // <HandleRelayout />

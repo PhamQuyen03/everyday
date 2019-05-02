@@ -7,6 +7,8 @@ target 'everyday' do
 
   # Pods for everyday
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
 end
 pod "yoga", :path => "../node_modules/react-native/ReactCommon/yoga"
 pod 'React', :path => '../node_modules/react-native', :subspecs => [
